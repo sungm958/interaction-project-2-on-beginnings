@@ -1,0 +1,272 @@
+html{
+  -moz-window-dragging: 100%;
+  padding: 1%;
+}
+body{
+    background: #0247FF;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+a{
+  text-decoration: none;
+  color: #0247FF;
+}
+  h1 {
+    color: #333;
+    font-family: tahoma;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.4;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    width: 700px;
+  }
+  
+  
+  h1 span {
+    font-size: 30px;
+    margin-left: 50px;
+    color: white;
+  }
+  span:hover{
+  font-style: normal;
+  }
+  span::after{
+  font-style: normal;
+  }
+  
+  
+  .message {
+    background-color: rgb(255, 255, 255);
+    color: #ff0202;
+    display: block;
+    font-weight: 500;
+    overflow: hidden;
+    position: absolute;
+    padding-left: 0.2rem;
+    top: 0.1rem;
+    left: 120px;
+    animation: openclose 5s ease-in-out infinite;
+  }
+  
+  .word1, .word2, .word3 {
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  @keyframes openclose {
+    0% {
+      top: 0.1rem;
+      width: 0;
+    }
+    5% {
+      width: 0;
+    }
+    15% {
+      width: 90px;
+    }
+    30% {
+      top: 0.1rem;
+      width: 90px;
+    }
+    33% {
+      top: 0.1rem;
+      width: 0;
+    }
+    35% {
+      top: 0.1rem;
+      width: 0;
+    }
+    38% {
+      top: 0.2rem;
+      
+    }
+    48% {
+      top: -2.7rem;
+      width: 140px;
+    }
+    62% {
+      top: -2.7rem;
+      width: 140px;
+    }
+    66% {
+      top: -2.7rem;
+      width: 0;
+      text-indent: 0;
+    }
+    71% {
+      top: -2.7rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    86% {
+      top: -5.7rem;
+      width: 160px;
+    }
+    95% {
+      top: -5.7rem;
+      width: 160px;
+    }
+    96% {
+      top: -5.7rem;
+      width: 160px;
+      text-indent: 5px;
+    }
+    100% {
+      top: 0.2rem;
+      width: 0;
+      text-indent: 0;
+    }
+  }
+
+.title {
+    position: relative;
+    width: 100%;
+    height: 100%auto;
+    padding: auto;
+    margin-left: 50%;
+  }
+    position: relative;
+    display: flex;
+    z-index: -1;
+    width: 35%;
+    margin-left: 900px;
+    margin-top: -650px;
+    height: 530px;
+
+}
+.box{
+	display: inline-block;
+	position: absolute;
+}
+
+.box .boxframe{
+	position: absolute;
+	z-index: 3;
+
+}
+
+.poetinfobox{
+	position: absolute;
+	display: flex;
+	flex-flow: column wrap;
+	width: 240px;
+  left: 20px;
+  border: #ffff;
+  border-radius: 4px;
+	justify-content: center;
+	align-items: center;
+	background-color: #0247FF;
+}
+.text{
+	font-family: 'Inconsolata', monospace;
+	font-size: 16px;
+  color: white;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: -5px;
+}
+
+.boxtext{
+	font-family: 'Times New Roman';
+	font-size: 25.5px;
+    letter-spacing: 2px;
+	color: blue;
+    font-family: 'Inconsolata', monospace;
+	position: relative;
+	display: inline-block;
+	z-index: 2;
+    font-style: italic;
+}
+
+.boxtext:hover{
+	font-style: normal;
+}
+.display{
+	display: none;;
+
+}
+
+
+button{
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    color: #0247FF;
+    border: 0ch;color: rgb(255, 255, 255);
+    font-family: 'Inconsolata', monospace;
+
+    
+}
+#myDIV {
+    width: 20%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 1000px;
+    margin-right: 100px;
+    position: absolute;
+}
+img{
+	padding: 15px;
+	width: 240px;
+	height: auto;
+}
+.story{
+    width: 100%;
+    height: 660px;  
+    background-color: #0247FF;
+    overflow: scroll;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+.story2{
+  width: 100%;
+  height: 660px;  
+  background-color: #0247FF;
+  overflow: scroll;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 23px;
+  letter-spacing: 2px;
+}
+/* #para{
+  display: inline;
+} */
+mark{
+    display: inline;
+    color: #0247ff;
+    background-color: rgb(255, 255, 255);
+}
+/* label.highlight{
+
+} */
+
+.hello{
+    color: white;
+}
+span{
+    color: red;
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    font-style: italic;
+    
+}
+
+#indent{
+    background-color: #0247FF;
+}
+/* #beginnings{
+    color: red;
+    display: inline-block;
+}
+#endings{
+    color: red;
+    display: inline-block;
+} */
+
